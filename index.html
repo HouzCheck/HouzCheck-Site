@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HouzCheck</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              fadeIn: "fadeIn 2s ease-in-out forwards",
+            },
+            keyframes: {
+              fadeIn: {
+                "0%": { opacity: 0 },
+                "100%": { opacity: 1 },
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <nav
+      class="sticky top-0 z-50 bg-white shadow-md py-3 px-6 flex justify-between items-center"
+    >
+      <div class="text-xl font-bold text-[#499CAA]">HouzCheck</div>
+      <a
+        href="#"
+        class="bg-[#499CAA] hover:bg-[#3f8d98] text-white font-semibold py-2 px-4 rounded-md transition"
+      >
+        Download on the App Store
+      </a>
+    </nav>
+
+    <header class="bg-[#499CAA] text-white py-12 text-center shadow-md">
+      <div
+        class="inline-block bg-white p-4 rounded-full shadow-lg animate-fadeIn"
+      >
+        <img
+          src="HOUZCHECK_LOGO.png"
+          alt="HouzCheck Logo"
+          class="w-24 mx-auto"
+        />
+      </div>
+      <h1 class="text-4xl font-bold mt-4 animate-fadeIn">HouzCheck</h1>
+      <p class="text-lg mt-2 animate-fadeIn">
+        Empowering Homeowners, Renters & Investors
+      </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 space-y-16 animate-fadeIn">
+      <section class="text-center">
+        <h2 class="text-4xl font-bold text-[#499CAA] mb-6">Who We Are</h2>
+        <div class="max-w-3xl mx-auto text-lg space-y-4">
+          <p>
+            HouzCheck is a veteran-owned business committed to empowering
+            homeowners, renters, and investors by giving them the tools to take
+            back control of their real estate...
+          </p>
+          <p>
+            Through our HouzCheck Network, users can also find trusted service
+            providers to help maintain and improve their investments with ease
+            and confidence.
+          </p>
+        </div>
+      </section>
+
+      <section class="bg-[#F2A12D]/10 p-10 rounded-2xl shadow-lg text-center">
+        <h2 class="text-3xl font-bold text-[#F2A12D] mb-6">What We Do</h2>
+        <p class="text-lg max-w-2xl mx-auto">
+          Our platform connects homeowners, renters, investors, and service
+          providers through an intuitive mobile app that simplifies inspections,
+          maintenance tracking, and documentation—all in one place.
+        </p>
+      </section>
+
+      <section class="text-center">
+        <h2 class="text-2xl font-bold text-[#499CAA] mb-6">
+          The HouzCheck Report
+        </h2>
+        <div class="max-w-2xl mx-auto">
+          <ul class="list-disc list-inside text-left space-y-3 text-lg">
+            <li>Document condition before & after events</li>
+            <li>Maintain a running property history</li>
+            <li>Boost equity and marketability</li>
+          </ul>
+          <div class="mt-6 bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-lg font-semibold mb-2">Snapshot:</h3>
+            <p class="text-sm">
+              The HouzCheck Report delivers all the value of traditional home
+              inspections, with none of the limitations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-bold text-center text-[#499CAA] mb-6">
+          Compare Reports
+        </h2>
+        <div class="overflow-x-auto">
+          <table
+            class="w-full table-auto text-sm border rounded-xl overflow-hidden shadow-md"
+          >
+            <thead class="bg-[#499CAA] text-white">
+              <tr>
+                <th class="px-4 py-3 text-left">Feature</th>
+                <th class="px-4 py-3 text-left">HouzCheck</th>
+                <th class="px-4 py-3 text-left">Traditional</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200 bg-white">
+              <tr>
+                <td class="px-4 py-3">Cost</td>
+                <td class="px-4 py-3">Low ongoing</td>
+                <td class="px-4 py-3">High one-time</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3">Reports</td>
+                <td class="px-4 py-3">Unlimited</td>
+                <td class="px-4 py-3">One-time</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3">Updates</td>
+                <td class="px-4 py-3">Real-time</td>
+                <td class="px-4 py-3">Snapshot</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3">Insurance Use</td>
+                <td class="px-4 py-3">Documented evidence</td>
+                <td class="px-4 py-3">Limited</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3">Ease of Use</td>
+                <td class="px-4 py-3">Mobile App</td>
+                <td class="px-4 py-3">Appointment required</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="text-center">
+        <h2 class="text-2xl font-bold text-[#499CAA] mb-6">Key Benefits</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all"
+          >
+            <h3 class="font-bold text-lg">Cost Savings</h3>
+            <p>Affordable access to comprehensive inspections.</p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all"
+          >
+            <h3 class="font-bold text-lg">Unlimited Reports</h3>
+            <p>Inspect and document as frequently as needed.</p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all"
+          >
+            <h3 class="font-bold text-lg">Insurance Ready</h3>
+            <p>Protect against losses with verifiable history.</p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="max-w-3xl mx-auto bg-white p-6 rounded-xl shadow text-center"
+      >
+        <h2 class="text-xl font-bold text-red-600 mb-3">Disclaimer</h2>
+        <p>
+          The HouzCheck Report is for informational purposes only and is not a
+          substitute for a professional inspection. Always prioritize safety.
+          HouzCheck assumes no responsibility for injuries or damages resulting
+          from the use of the app.
+        </p>
+      </section>
+    </main>
+
+    <footer
+      class="text-center py-8 text-sm text-gray-500 bg-white mt-12 border-t"
+    >
+      &copy; 2025 HouzCheck. All rights reserved.
+    </footer>
+  </body>
+</html>
